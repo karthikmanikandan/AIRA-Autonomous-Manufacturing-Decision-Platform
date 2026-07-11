@@ -372,4 +372,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👥 Contributors
 
-* **Karthik Manikandan** - Lead Architect & AI Developer
+* **Karthik Manikandan** - currently Associate LLM Engineer  future (Lead Architect & AI Developer)
