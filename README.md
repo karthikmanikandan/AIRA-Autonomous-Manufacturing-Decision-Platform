@@ -368,3 +368,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to interac
 ## 👥 Contributors
 
 * **Karthik Manikandan** - currently Associate LLM Engineer,future Lead Architect & AI Developer
+* **jogi**
