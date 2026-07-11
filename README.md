@@ -365,6 +365,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to interac
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (suggested for release).
 
 ---
+## Demo Video
+
+[Watch the demo video](https://github.com/user-attachments/assets/e48b7f8c-16b5-45f9-8414-d63e6367f3b8)
+---
 
 ## 👥 Contributors
 
