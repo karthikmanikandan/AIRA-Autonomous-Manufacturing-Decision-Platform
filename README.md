@@ -362,11 +362,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to interac
 2. **Enhanced Simulator**: Integrate statistical Monte Carlo methods to project long-tail supply chain delays.
 3. **Auditability**: Commit transaction hashes to enterprise private blockchains for auditable operation logs.
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (suggested for release).
 
 ---
 
