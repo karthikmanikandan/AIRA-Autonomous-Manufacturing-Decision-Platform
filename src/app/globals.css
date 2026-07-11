@@ -1,26 +1,117 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-aira-bg: #0a0a0f;
+  --color-aira-card: rgba(255, 255, 255, 0.03);
+  --color-aira-border: rgba(255, 255, 255, 0.06);
+  --color-aira-border-hover: rgba(255, 255, 255, 0.12);
+  --color-aira-text: #e2e8f0;
+  --color-aira-text-secondary: #94a3b8;
+  --color-aira-text-muted: #64748b;
+  
+  --color-aira-emerald: #10b981;
+  --color-aira-emerald-glow: rgba(16, 185, 129, 0.15);
+  
+  --color-aira-amber: #f59e0b;
+  --color-aira-amber-glow: rgba(245, 158, 11, 0.15);
+  
+  --color-aira-red: #ef4444;
+  --color-aira-red-glow: rgba(239, 68, 68, 0.15);
+  
+  --color-aira-cyan: #06b6d4;
+  --color-aira-cyan-glow: rgba(6, 182, 212, 0.15);
+  
+  --color-aira-purple: #8b5cf6;
+  --color-aira-purple-glow: rgba(139, 92, 246, 0.15);
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base styles */
+html {
+  background: #0a0a0f;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #0a0a0f;
+  color: #e2e8f0;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+/* Glassmorphism utility card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Glow effects */
+.glow-emerald {
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.12), 0 0 50px rgba(16, 185, 129, 0.04);
+}
+.glow-amber {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.12), 0 0 50px rgba(245, 158, 11, 0.04);
+}
+.glow-red {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.12), 0 0 50px rgba(239, 68, 68, 0.04);
+}
+.glow-cyan {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.12), 0 0 50px rgba(6, 182, 212, 0.04);
+}
+.glow-purple {
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.12), 0 0 50px rgba(139, 92, 246, 0.04);
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+@keyframes scan-line {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Grid background pattern */
+.grid-pattern {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 30px 30px;
 }
