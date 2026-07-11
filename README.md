@@ -45,20 +45,16 @@ AIRA addresses this challenge by deploying a **LangGraph-driven Multi-Agent Syst
 ## Screenshots
 
 ### Dashboard
-![Dashboard](<img width="1423" height="787" alt="Screenshot 2026-07-11 at 4 36 47 PM" src="https://github.com/user-attachments/assets/6bc49bc7-f4b2-4342-b813-0a0dc251389e" />
-)
+![Dashboard](https://github.com/user-attachments/assets/6bc49bc7-f4b2-4342-b813-0a0dc251389e)
 
-### Dashboard
-![Dashboard](<img width="1195" height="840" alt="Screenshot 2026-07-11 at 4 37 05 PM" src="https://github.com/user-attachments/assets/fd68a4bb-abe4-41a2-9f0d-6df90c652eb7" />
-)
+### Dashboard View 2
+![Dashboard View 2](https://github.com/user-attachments/assets/fd68a4bb-abe4-41a2-9f0d-6df90c652eb7)
 
 ### AI Copilot
-![AI Copilot](<img width="1176" height="825" alt="Screenshot 2026-07-11 at 4 37 37 PM" src="https://github.com/user-attachments/assets/7d885762-a337-44a2-a527-bd5ca2ee4cd0" />
-)
+![AI Copilot](https://github.com/user-attachments/assets/7d885762-a337-44a2-a527-bd5ca2ee4cd0)
 
 ### MCP Terminal & Digital Twin
-![MCP Terminal & Digital Twin](<img width="1187" height="853" alt="Screenshot 2026-07-11 at 4 38 13 PM" src="https://github.com/user-attachments/assets/d18e8047-4bdb-402a-ba9e-be9b6b63cc98" />
-)
+![MCP Terminal & Digital Twin](https://github.com/user-attachments/assets/d18e8047-4bdb-402a-ba9e-be9b6b63cc98)
 
 
 ---
