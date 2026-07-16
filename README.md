@@ -44,6 +44,9 @@ AIRA addresses this challenge by deploying a **LangGraph-driven Multi-Agent Syst
 ---
 ## Screenshots
 
+### SD
+![SD](<img width="1536" height="1024" alt="airan" src="https://github.com/user-attachments/assets/15381608-f585-4074-b716-f51113723679" />
+)
 ### Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/6bc49bc7-f4b2-4342-b813-0a0dc251389e)
 
